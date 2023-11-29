@@ -6,6 +6,21 @@
 
 **Baixo nível:** modelagem ligada à linguagem das máquinas.
 
+**Cardinalidade:** sinônimo de conectividade e relacionamento entre entidades.
+
+* (1,1) um-para-um
+* (1,N) um-para-muitos
+* (N,1) muitos-para-um
+* (N,M) muitos-para-muitos
+
+**Cardinalidade máxima:** número máximo de vezes que uma entidade X pode ocorrer em Y. Pode assumir o valor de 1 ou N (inúmeras vezes).
+
+**Cardinalidade mínima (restrição de participação ou dependência de existência):** número mínimo de vezes que uma entidade X pode ocorrer em Y. Pode assumir o valor de 0 ou 1.
+
+* **restrição total** ocorre quando todas as instâncias de uma entidade X precisam estar obrigatoriamente relacionadas a alguma instância da entidade Y.
+
+* **restrição parcial** ocorre quando todas as instâncias de uma entidade X não precisam estar obrigatoriamente relacionadas a alguma instância da entidade Y.
+
 **Computer-Aided Software Engineering (CASE) ou Engenharia de Software Assistida por Computador** é uma ferramenta que utiliza diversas formas geométricas para desenvolver uma boa representação visual, a integração entre o diagrama entidade/relacionamento e o dicionário de dados, além de possibilitar uma mínima interação com o(a) usuário(a).
 
 **Diagrama de Entidade e Relacionamento (DER)** é a representação gráfica do MER.
